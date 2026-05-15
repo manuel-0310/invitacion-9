@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Invitación — Gaby & Cris</title>
+    <link rel="stylesheet" href="styles9.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
+    <meta name="format-detection" content="telephone=no">
+</head>
+
+<body>
+    
+    <div id="intro-overlay">
+        <div class="intro-bg"></div>
+        <div class="escena">
+            <img src="fotos 9/sello.png" id="sello" alt="Sello de cera">
+            <img src="fotos 9/sobre-cerrado.png" id="sobre-cerrado" class="sobre" alt="Sobre cerrado">
+            <img src="fotos 9/sobre-abierto.png" id="sobre-abierto" class="sobre" alt="Sobre abierto">
+            <div class="tarjeta-intro" id="tarjeta-intro">
+                <h2>Eres un invitado especial</h2>
+            </div>
+            <button id="btn-continuar" type="button">Continuar</button>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden">
+
+        <audio id="miMusica">
+            <source src="fotos 9/cancion.mp3" type="audio/mpeg">
+        </audio>
+
+        <button id="btnMusica" class="boton-flotante">
+            <span id="texto">Reproducir canción</span>
+        </button>
+        
+
+    <!-- ── 1. HERO ── -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Gaby<span class="hero-ampersand">&amp;</span>Cris</h1>
+            <p class="hero-date">8 de agosto &nbsp;·&nbsp; 2026 &nbsp;·&nbsp; 2:00 PM</p>
+        </div>
+    </header>
+
+    <!-- ── 2. NUESTRA HISTORIA ── -->
+    <section class="story-section">
+        <div class="reveal">
+            <div class="divider-line"><span>&#10044;</span></div>
+            <h2 class="section-title" style="margin-top:22px;">Nuestra historia</h2>
+        </div>
+        <div class="story-text reveal reveal-delay-1">
+            <p>El destino los unió por casualidad el 2 de mayo de 2019 en Nueva York, durante un evento universitario
+                al que Cris literalmente se coló — convencido por la magia del momento y por una amiga en común. Después
+                de que los presentaron, no pudieron dejar de hablar. Todo lo demás a su alrededor pareció desvanecerse:
+                sus familias, sus valores y sus sueños comenzaron a entrelazarse desde esa primera noche.</p>
+            <p>En sus siete años juntos han compartido culturas, viajes y muchas aventuras. Uno de los momentos más
+                especiales llegó cuando Cris pidió la bendición de la familia de Gaby en Colombia, y poco después le
+                propuso matrimonio en un viñedo en Italia — un guiño a la pasión de ella por el vino. Ahora, su
+                historia llega a su capítulo más hermoso en la Basílica de Monguí, donde los abuelos de Gaby se
+                casaron y donde ella fue bautizada.</p>
+            <p class="story-signature">– Gaby &amp; Cris</p>
+        </div>
+    </section>
+
+    <!-- ── 3. PARA NUESTROS INVITADOS ── -->
+    <section class="story-section">
+        <div class="reveal">
+            <div class="divider-line"><span>&#10044;</span></div>
+            <h2 class="section-title" style="margin-top:22px;">Para nuestros invitados</h2>
+        </div>
+        <div class="story-text reveal reveal-delay-1">
+            <p>Después de siete años de aventuras juntos, desde las calles de Nueva York hasta los viñedos de Italia,
+                Gaby y Cris han elegido sellar su amor en el lugar más significativo para ellos: la Basílica de
+                Monguí, donde el amor de esta familia ha florecido por generaciones. Queremos celebrar este día tan
+                especial rodeados de las personas que más amamos, y nos encantaría contar con tu presencia.</p>
+        </div>
+    </section>
+
+    <!-- ── 4A. GALERÍA 1 ── -->
+    <section class="gallery-section">
+        <div class="slideshow">
+            <img src="fotos 9/foto1.jpg" class="active" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto2.jpg" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto3.jpg" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto4.jpg" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto8.jpg" alt="Gaby &amp; Cris">
+        </div>
+    </section>
+
+    <!-- ── 5. CUENTA REGRESIVA ── -->
+    <section class="countdown-section">
+        <div class="reveal">
+            <h2 class="section-title">Cuenta regresiva</h2>
+            <p class="subtitle">para el día de nuestro matrimonio</p>
+        </div>
+        <div id="timer" class="reveal reveal-delay-1">
+            <div class="time-box"><span id="days">00</span><label>Días</label></div>
+            <div class="time-box"><span id="hours">00</span><label>Horas</label></div>
+            <div class="time-box"><span id="minutes">00</span><label>Minutos</label></div>
+            <div class="time-box"><span id="seconds">00</span><label>Segundos</label></div>
+        </div>
+        <p class="wedding-date reveal reveal-delay-2">8 de Agosto, 2026 &nbsp;·&nbsp; 2:00 PM</p>
+    </section>
+
+
+    <!-- ── 6. NUESTRO GRAN DÍA ── -->
+    <section class="timeline-section">
+        <div class="reveal">
+            <h2 class="section-title">Nuestro gran día</h2>
+            <p class="section-subtitle">8 de Agosto, 2026</p>
+        </div>
+
+        <div class="timeline-grid">
+            <div class="tl-item reveal">
+                <img src="fotos 9/bienvenidos.png" alt="Llegada">
+                <p class="tl-hora">1:30 PM – Hora de llegada</p>
+            </div>
+            <div class="tl-item reveal reveal-delay-1">
+                <img src="fotos 9/anillos.png" alt="Ceremonia">
+                <p class="tl-hora">2:00 PM – Ceremonia · Basílica de Monguí</p>
+            </div>
+            <div class="tl-venue-sep reveal reveal-delay-2">
+                <p class="tl-venue-tag">— Hacienda Las Margaritas · Sogamoso —</p>
+            </div>
+            <div class="tl-item reveal reveal-delay-2">
+                <img src="fotos 9/bebida.png" alt="Cóctel">
+                <p class="tl-hora">4:30 PM – Cóctel</p>
+            </div>
+            <div class="tl-item reveal reveal-delay-1">
+                <img src="fotos 9/cena.png" alt="Recepción">
+                <p class="tl-hora">6:30 PM – Recepción</p>
+            </div>
+            <div class="tl-item reveal reveal-delay-2">
+                <img src="fotos 9/fiesta.png" alt="Fiesta">
+                <p class="tl-hora">8:00 PM – Fiesta</p>
+            </div>
+            <div class="tl-item reveal reveal-delay-3">
+                <img src="fotos 9/finalizacion.png" alt="Finalización">
+                <p class="tl-hora">1:00 AM – Finalización</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 7. CÓDIGO DE VESTIMENTA ── -->
+    <section class="dresscode-section">
+        <div class="reveal">
+            <h2 class="section-title">Código de vestimenta</h2>
+        </div>
+        <div class="dresscode-container reveal reveal-delay-1">
+            <p class="dresscode-intro">Vestimenta formal</p>
+            <div class="dresscode-image">
+                <img src="fotos 9/vestimenta.png" alt="Inspiración Vestimenta" style="border-radius:12px;">
+            </div>
+            <p class="color-reserve">Nota: El color blanco y beige quedan reservados.</p>
+        </div>
+    </section>
+
+    <!-- ── 4B. GALERÍA 2 ── -->
+    <section class="gallery-section">
+        <div class="slideshow">
+            <img src="fotos 9/foto5.jpg" class="active" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto6.jpg" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto7.jpg" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto9.jpg" alt="Gaby &amp; Cris">
+            <img src="fotos 9/foto10.jpg" alt="Gaby &amp; Cris">
+        </div>
+    </section>
+
+
+    <!-- ── 8. LLUVIA DE SOBRES ── -->
+    <div class="tarjeta" id="tarjeta">
+        <div class="contenido-tarjeta">
+            <div class="lluvia-sobres reveal">
+                <img src="fotos 9/sobre-cerrado.PNG" alt="Sobre" class="lluvia-sobres-img">
+                <h2 class="lluvia-sobres-titulo">Lluvia de Sobres</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── 9. UBICACIÓN ── -->
+    <section class="location-section">
+        <div class="reveal">
+            <h2 class="section-title">Ubicación</h2>
+        </div>
+
+        <!-- Ceremonia -->
+        <div class="venue-block reveal reveal-delay-1">
+            <p class="location-label">Ceremonia</p>
+            <p class="location-name"><b>Basílica Nuestra Señora de Monguí</b></p>
+            <p class="location-sub">Monguí, Boyacá</p>
+            <div class="location-image">
+                <img src="fotos 9/iglesia.png" alt="Basílica de Monguí" class="hacienda-img">
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.9401861540905!2d-72.849108!3d5.7217563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a492a50cb500b%3A0x240c035d6ee53aa3!2sBas%C3%ADlica%20Menor%20de%20Nuestra%20Se%C3%B1ora%20de%20Mongu%C3%AD!5e0!3m2!1ses-419!2sco!4v1778794153647!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- Recepción -->
+        <div class="venue-block reveal reveal-delay-2">
+            <p class="location-label">Recepción</p>
+            <p class="location-name"><b>Hacienda Las Margaritas</b></p>
+            <p class="location-sub">Sogamoso, Boyacá</p>
+            <div class="location-image">
+                <img src="fotos 9/hacienda.jpg" alt="Hacienda Las Margaritas" class="hacienda-img">
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6539.4461608737!2d-72.9578336687974!3d5.701443370690831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a45b393610b4b%3A0x91dae8372c4ba056!2sHacienda%20Las%20Margaritas!5e0!3m2!1ses-419!2sco!4v1778793973426!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 10. RSVP ── -->
+    <section class="rsvp-section">
+        <div class="reveal">
+            <h2 class="section-title">Confirma tu asistencia</h2>
+            <p class="section-subtitle">¡Esperamos contar contigo!</p>
+        </div>
+
+        <div class="rsvp-container reveal reveal-delay-1">
+            <form id="rsvp-form" class="styled-form">
+
+                <div class="input-row">
+                    <div class="form-group">
+                        <label for="from_name">Nombres *</label>
+                        <input type="text" name="from_name" id="from_name" required placeholder="Tu respuesta">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Apellidos *</label>
+                        <input type="text" name="last_name" id="last_name" required placeholder="Tu respuesta">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Edad *</label>
+                    <input type="number" name="age" id="age" required placeholder="Tu respuesta">
+                </div>
+
+                <div class="form-group">
+                    <label for="allergies">Alergias Alimentarias</label>
+                    <textarea name="allergies" id="allergies" rows="3"
+                        placeholder="Si no tienes, escribe 'Ninguna'"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="main-label">¿Vas a asistir? *</label>
+                    <div class="radio-options">
+                        <label class="radio-container">
+                            <input type="radio" name="attendance" value="Sí" required>
+                            <span class="checkmark"></span>
+                            Sí, ¡allí estaré!
+                        </label>
+                        <label class="radio-container">
+                            <input type="radio" name="attendance" value="No">
+                            <span class="checkmark"></span>
+                            No, me es imposible
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" id="button-send" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- ── SCRIPTS ── -->
+    <script src="scriptmain9.js"></script>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer-boda">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="fotos 9/dosa.png" alt="Logo" class="logo-footer-icon">
+                <img src="fotos 9/dosa2.png" alt="Dosa Eventos" class="logo-footer-name">
+            </div>
+            <div class="footer-info">
+                <div class="footer-section">
+                    <span class="nombre-planner">Alejandra Riveros</span>
+                    <span class="rol-planner">Wedding Planner</span>
+                </div>
+                <div class="footer-section">
+                    <span class="nombre-planner">Celular</span>
+                    <span class="rol-planner" style="text-decoration: none; color: #a1a1a1;">321&nbsp;4603514</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div><!-- fin #main-content -->
+</body>
+
+</html>
