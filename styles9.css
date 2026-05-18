@@ -124,6 +124,8 @@ body {
     display: inline-block;
 }
 
+.date-break { display: none; }
+
 .divider-line {
     display: flex;
     align-items: center;
@@ -810,7 +812,9 @@ h2.section-title {
         font-weight: 800;
         letter-spacing: 3px;
         padding: 10px 18px;
+        text-shadow: 0 0 1px rgba(255,255,255,0.8);
     }
+    .date-break { display: inline; }
 }
 
 @media (max-width: 480px) {
