@@ -124,7 +124,7 @@ document.querySelectorAll('.slideshow').forEach(show => {
     const imgs = show.querySelectorAll('img');
     const counter = show.querySelector('.slide-counter');
     let idx = 0;
-    const AUTO_DELAY = 4000; // ms entre cada foto
+    const AUTO_DELAY = 2500; // ms entre cada foto
 
     function updateSlide(newIdx) {
         imgs[idx].classList.remove('active');

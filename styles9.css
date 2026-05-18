@@ -112,10 +112,10 @@ body {
 
 .hero-date {
     font-family: var(--font-serif);
-    font-size: clamp(0.7rem, 1.5vw, 0.95rem);
-    font-weight: 600;
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    font-weight: 800;
     letter-spacing: 6px;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.95);
     text-transform: uppercase;
     margin-top: 24px;
     border-top: 1px solid rgba(255,255,255,0.3);
@@ -804,6 +804,13 @@ h2.section-title {
     .nombre-planner { font-size: 1.6rem; }
     .logo-footer-icon { height: 100px; }
     .logo-footer-name { height: 28px; }
+
+    .hero-date {
+        font-size: 1.05rem;
+        font-weight: 800;
+        letter-spacing: 3px;
+        padding: 10px 18px;
+    }
 }
 
 @media (max-width: 480px) {
